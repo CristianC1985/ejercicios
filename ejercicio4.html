@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Formulario de Registro</h1>
+
+    <form action="formulario">
+        <div>
+        <label for="nombre"> Nombre:</label>
+        <input id="nombre" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="apellido"> Apellido:</label>
+            <input id="apellido" type="text">
+        </div>
+        <br>     
+  
+    <div>
+        
+        <label for="sexo"> Sexo:</label>
+        <input name="sexo" type="radio" id="Hombre" checked>
+        <label for="Hombre"> Hombre </label>
+        <input name="sexo" type="radio" id="Mujer">
+        <label for="mujer">Mujer</label>
+    </div>
+    <br>
+    <div>
+        <label for="correo"> Correo: </label>
+        <input id="correo" type="text">
+    </div>
+
+    <div>
+        <label for="poblacion">Población:</label>
+        <select name="poblacion" id="poblacion">
+            <option value="">Buenos Aires</option>
+            <option value="">Corrientes</option>
+            <option value="">Salta</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="descripcion"> Descripción:</label>
+        <textarea name="cuadro" id="descripcion" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    
+        <input type="checkbox" name="casilla">
+        <label for="casilla"> Deseo recibir información sobre novedades y ofertas</label>
+        <br>
+        <input type="checkbox" name="casilla2" >
+        <label for="casilla2"> Declaro haber leido y aceptar las condiciones generales del programa 
+            y la normativa de protección de datos
+        </label>
+        <br>
+
+        <button>Enviar</button>
+       
+        
+    
+    </form>
